@@ -1,11 +1,13 @@
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World!! ");
+        Scanner scanner = new Scanner(System.in);
 
         // Initialise board
         TicTacToe ticTacToe = new TicTacToe();
 
         // play game
+        ticTacToe.playGame(scanner);
     }
 }
